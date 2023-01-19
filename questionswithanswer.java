@@ -29,7 +29,7 @@ public class questionswithanswer {
             for(int j=0;j<b.length;j++){
                 sum[i][j]=a[i][j]+b[i][j];
                 System.out.print(sum[i][j]+" ");
-            }
+            }System.out.println();
         }}
     //question 3: Write a Java program to find the common elements between two arrays of integers?
     public static void commonfinder(int []a,int[]b ){
